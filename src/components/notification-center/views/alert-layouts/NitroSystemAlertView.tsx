@@ -21,7 +21,7 @@ export const NitroSystemAlertView: FC<NotificationDefaultAlertViewProps> = props
                     <p className="text-sm"><b className="font-semibold [text-shadow:_0_1px_0_#fff] dark:[text-shadow:_0_1px_0_#33312B]">Illumina:</b> v{ GetIlluminaVersion() }</p>
                     <p className="text-sm"><b className="font-semibold [text-shadow:_0_1px_0_#fff] dark:[text-shadow:_0_1px_0_#33312B]">Renderer:</b> v{ GetRendererVersion() }</p>
                     <div className="mt-4 flex w-full flex-col gap-2">
-                        <Button variant="success" className="w-full" onClick={ event => window.open("https://discord.gg/yMRWuSekS8") }>Discord</Button>
+                        <Button variant="success" className="w-full" onClick={ event => window.open("https://discord.gg/SePPbWjy") }>Discord</Button>
                     </div>
                 </div>
             </div>
