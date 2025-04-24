@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './components';
+
 @font-face {
     font-family: "Illumina Ubuntu";
     src: url("/client-assets/fonts/Ubuntu-C.ttf");
