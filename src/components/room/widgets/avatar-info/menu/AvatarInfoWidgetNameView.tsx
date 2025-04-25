@@ -14,7 +14,7 @@ export const AvatarInfoWidgetNameView: FC<AvatarInfoWidgetNameViewProps> = props
 
     const getClassNames = useMemo(() =>
     {
-        const newClassNames: string[] = [ "flex items-center !min-w-fit !p-[6px_15px_8px] text-[#636363] dark:text-[#737067] [text-shadow:_0_1px_0_#fff] dark:[text-shadow:_0_1px_0_#33312B]" ]
+        const newClassNames: string[] = [ "flex items-center !min-w-fit !p-[6px_15px_8px] text-[#636363] dark:text-white [text-shadow:_0_1px_0_#fff] dark:[text-shadow:_0_1px_0_#33312B]" ]
 
         if(nameInfo.isFriend) newClassNames.push("green !text-white ![text-shadow:_0_1px_0_#95B555]")
 

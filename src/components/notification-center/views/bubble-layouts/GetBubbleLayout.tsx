@@ -11,8 +11,8 @@ export const GetBubbleLayout = (item: NotificationBubbleItem, onClose: () => voi
     switch(item.notificationType)
     {
     case NotificationBubbleType.CLUBGIFT:
-        return <NotificationClubGiftBubbleView { ...props } />
+        return <NotificationClubGiftBubbleView key={ item } { ...props } />
     default:
-        return <NotificationDefaultBubbleView { ...props } />
+        return <NotificationDefaultBubbleView key={ item } { ...props } />
     }
 }
