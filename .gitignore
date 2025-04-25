@@ -3,6 +3,9 @@
 /out-tsc
 /node_modules
 /submodules/*
+/submodules/renderer
+package.json
+package-lock.json
 /.idea
 .project
 .classpath
