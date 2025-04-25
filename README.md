@@ -54,6 +54,10 @@ yarn build:prod
 -   To personalize Illumina you can change `illumina.toolbar.type` inside `ui-config.json` to the 
     <br/>
     -   `default` to show the default toolbar
-    <img src="https://i.imgur.com/DVKeHlE.png" alt="Default Toolbar" width="300"/><br/><br/>
+    <br/>
+    <img src="https://i.imgur.com/DVKeHlE.png" alt="Default Toolbar" width="300"/>
+    <br/>
     -   `left` will show the toolbar on the left side 
+    <br/>
     <img src="https://i.imgur.com/J9AWuuh.png" alt="Left Toolbar" width="300"/>
+    <br/>
