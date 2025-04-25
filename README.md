@@ -52,12 +52,35 @@ yarn build:prod
 ### Personalization
 
 -   To personalize Illumina you can change `illumina.toolbar.type` inside `ui-config.json` to the 
+
     <br/>
     -   `default` to show the default toolbar
     <br/>
     <img src="https://i.imgur.com/DVKeHlE.png" alt="Default Toolbar" width="300"/>
     <br/>
+
     -   `left` will show the toolbar on the left side 
+    
     <br/>
     <img src="https://i.imgur.com/J9AWuuh.png" alt="Left Toolbar" width="300"/>
     <br/>
+
+  - Also you can personalize navigator changing `illumina.navigator.type` inside same file
+
+  <br/>
+  -   `default` to show the default navigator
+  <br/>
+
+  <img src="https://i.imgur.com/YmwMsCc.png" alt="Left Toolbar" width="300"/>
+
+  <br/>
+  -   `r63` to show the r63 styled navigator
+  <br/>
+
+  <img src="https://i.imgur.com/fo6xnQT.png" alt="Left Toolbar" width="300"/>
+
+  <br/>
+  -   `r63Large` to show the r63Large styled navigator
+  <br/>
+    
+  <img src="https://i.imgur.com/9xXmTNF.png" alt="Left Toolbar" width="300"/>
