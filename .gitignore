@@ -2,8 +2,7 @@
 /tmp
 /out-tsc
 /node_modules
-/submodules/nitro-renderer
-/submodules/renderer
+/submodules/*
 /.idea
 .project
 .classpath
